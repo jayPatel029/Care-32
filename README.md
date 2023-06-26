@@ -1,2 +1,5 @@
 # Care-32
-applicatipn for dental health using flutter
+Applicatipn for dental health using Flutter
+
+Change the branch to master to view the code
+
