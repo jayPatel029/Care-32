@@ -1,0 +1,9 @@
+const String homePageRoute = '/home';
+const String profileRoute = '/profile';
+const String loginOrRegisterRoute = '/loginOrRegister';
+const String calendarRoute = '/myCal';
+const String eventsEditingRoute = '/eventsEditing';
+const String homeStreakRoute = '/homeStreak';
+const String denLocationRoute = '/location';
+const String scannerRoute = '/scanner';
+const String faqRoute = '/faqs';

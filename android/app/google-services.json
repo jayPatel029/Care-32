@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219268782996",
+    "project_id": "dentalmodel-2861d",
+    "storage_bucket": "dentalmodel-2861d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219268782996:android:d4326a0fcb1c3aefa3cd81",
+        "android_client_info": {
+          "package_name": "com.example.dental_minor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219268782996-ja9modfrg9m581d58j7ndpud5eisevi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzh0OsPgCJwosUIqeb4hbCn6_v0GgqaQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219268782996-ja9modfrg9m581d58j7ndpud5eisevi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
