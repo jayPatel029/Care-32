@@ -1,7 +1,7 @@
 import 'package:dental_minor/router/constraints.dart';
 import 'package:flutter/material.dart';
 
-class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final Icons;
   final leading;

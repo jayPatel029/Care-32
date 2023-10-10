@@ -45,7 +45,8 @@ class CustomCard extends StatelessWidget {
                         ),
                         Text(subtitle,
                         style: TextStyle(
-                          fontSize: 18
+                          fontSize: 18,
+                          color: Colors.grey[700]
                         ),
                         ),
                       ],
@@ -54,14 +55,17 @@ class CustomCard extends StatelessWidget {
                 ),
                 Expanded(
                   flex: 2,
-                  child: Container(
-                    height: 180.0,
-                    width: 130.0,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(12)),
-                      image: DecorationImage(
-                        image: AssetImage('$iAdd'),
-                        fit: BoxFit.fill,
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 180.0,
+                      width: 130.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(12)),
+                        image: DecorationImage(
+                          image: AssetImage('$iAdd'),
+                          fit: BoxFit.fill,
+                        ),
                       ),
                     ),
                   ),

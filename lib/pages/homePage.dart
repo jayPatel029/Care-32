@@ -11,16 +11,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  // int currentIndex = 0;
-  // final List<Widget> screens = [
-  //   HomePage(),
-  //   // ScanPage(),
-  //   DentistLocPage(),
-  //   CalPage(),
-  //   StreakHomePage(),
-  // ];
-  //     final PageStorageBucket bucket  = PageStorageBucket();
-  //     Widget currentScreen = HomePage();
+  int currentIndex = 0;
+  // finaWidget currentScreen = HomePage();
 
   @override
   Widget build(BuildContext context) {
@@ -40,31 +32,31 @@ class _HomePageState extends State<HomePage> {
                   CustomCard(
                     title: "Scan",
                     iAdd: "asset/monitor.png",
-                    subtitle: "hwlloecuibwscbe",
+                    subtitle: "Scan your teeth",
                     rAdd: scannerRoute,
                   ),
                   CustomCard(
                     title: "Daily Tasks",
                     iAdd: "asset/task.png",
-                    subtitle: "hwlloecuibwscbe",
+                    subtitle: "List down your daily tasks here",
                     rAdd: homeStreakRoute,
                   ),
                   CustomCard(
                     title: "Monthly Report",
                     iAdd: "asset/calendar.png",
-                    subtitle: "hwlloecuibwscbe",
+                    subtitle: "Note down your monthly progress or set remainders here",
                     rAdd: calendarRoute,
                   ),
                   CustomCard(
                     title: "Dentists Near Me",
                     iAdd: "asset/placeholder.png",
-                    subtitle: "hwlloecuibwscbe",
+                    subtitle: "Locate Top rated dentists nearby",
                     rAdd: denLocationRoute,
                   ),
                   CustomCard(
                     title: "FAQs",
                     iAdd: "asset/faq.png",
-                    subtitle: "hwlloecuibwscbe",
+                    subtitle: "Some Important FAQs related to dental health",
                     rAdd: faqRoute,
                   ),
                 ],
