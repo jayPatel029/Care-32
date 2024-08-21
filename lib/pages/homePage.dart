@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int currentIndex = 0;
-  // finaWidget currentScreen = HomePage();
+  
 
   @override
   Widget build(BuildContext context) {
